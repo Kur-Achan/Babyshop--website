@@ -1,9 +1,16 @@
 #navbar{
    display: flex; 
-   padding-left: 15%;
-   gap: 5%;
+   padding-left: 10%;
+   gap: 10%;
+}
+#order{
+   width: 100%
 }
 #header{
    padding-left: 15%;
    background-color: plum;
+}
+#milk{
+   display: flex;
+   gap: 10%;
 }
