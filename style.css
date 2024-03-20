@@ -1,0 +1,9 @@
+#navbar{
+   display: flex; 
+   padding-left: 15%;
+   gap: 5%;
+}
+#header{
+   padding-left: 15%;
+   background-color: plum;
+}
