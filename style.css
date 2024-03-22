@@ -3,6 +3,12 @@
    padding-left: 10%;
    gap: 10%;
 }
+.heading{
+   text-align: center;
+   padding-left: 10%;
+   font-size: xx-large;
+   font-style: italic;
+}
 #header{
    padding-left: 15%;
    background-color: plum;
@@ -20,40 +26,40 @@
    
 .shorts{
 display: flex;
-padding-left: 5%;
+padding-left: 15%;
 gap: 15%;
 }
 #dresses{
    display: flex;
-   padding-left: 5%;
+   padding-left: 15%;
    gap: 15%;
 }
 .shoes{
    display: flex;
-   padding-left: 5%;
+   padding-left: 15%;
    gap: 15%;
 }
 #title{
    text-align: center;
-   padding-right: 5%;
+   padding-right: 15%;
 }
 .toy1{
    display: flex;
-   padding-left: 5%;
+   padding-left: 15%;
    gap: 15%;
 }
 .garlie{
 display: flex;
-padding-left: 5%;
+padding-left: 15%;
 gap: 15%;
 }
 .heels{
    display: flex;
-   padding-left: 5%;
+   padding-left: 15%;
    gap: 15%;
 }.mini{
    display: flex;
-   padding-left: 5%;
+   padding-left: 15%;
    gap: 15%;
 }
 #vida{
@@ -61,8 +67,8 @@ gap: 15%;
 }
 #footer{
    display: flex;
-   gap: 10%;
-   padding-left: 10%;
+   gap: 5%;
+   padding-left: 15%;
 }
 #heading{
    text-align: center;
