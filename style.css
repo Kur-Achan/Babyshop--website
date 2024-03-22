@@ -1,12 +1,17 @@
 #navbar{
    display: flex; 
    padding-left: 10%;
-   gap: 10%;
+   gap: 5%;
 }
 .heading{
    text-align: center;
    padding-left: 10%;
    font-size: xx-large;
+   font-style: italic;
+}
+#sage{
+   color: cornflowerblue;
+   padding-left: 35%;
    font-style: italic;
 }
 #header{
@@ -21,7 +26,7 @@
 }
 .clothes{
    display: flex;
-   gap: 15%;
+   gap: 10%;
 }
    
 .shorts{
@@ -57,7 +62,8 @@ gap: 15%;
    display: flex;
    padding-left: 15%;
    gap: 15%;
-}.mini{
+}
+.mini{
    display: flex;
    padding-left: 15%;
    gap: 15%;
@@ -69,10 +75,231 @@ gap: 15%;
    display: flex;
    gap: 5%;
    padding-left: 15%;
+   width: 50px;
 }
 #heading{
    text-align: center;
    padding-right: 15%;
-}@media only screen and (minwidth: 360px) 
+}@media screen and (min-width:375px) and (max-width: 768px) {
+   .shorts{
+      flex-wrap: wrap;
+      gap: 10%;
+   }
+
+   .mini{
+      flex-direction: column;
+      padding-left: 15%;
+      gap: 15%;
+   }
+
+   #footer{
+      flex-direction: column;
+      gap: 5%;
+      padding-left: 15%;
+      width: 50px;
+   }
+
+   #navbar{
+      flex-direction: column;
+      /* flex-wrap: wrap;  */
+      padding-left: 10%;
+      gap: 10%;
+   }
+
+   #dresses{
+      flex-direction: column;
+   }
+
+   .mini{
+      flex-direction: column;
+   }
+
+   .shoes{
+      flex-direction: column;
+   }
+
+   .heels{
+      flex-direction: column;
+   }
+
+   .toy1{
+      flex-direction: column;
+   }
+
+   .garlie{
+      flex-direction: column;
+   }
+
+   .romps{
+      flex-direction: column;
+   }
+}
+
+@media  screen and (min-width: 769px) and (max-width:1020px) {
+   .shorts{
+      flex-wrap: wrap;
+      gap: 10%;
+   }
+
+   .mini{
+      flex-direction: column;
+      padding-left: 15%;
+      gap: 15%;
+   }
+
+   #footer{
+      flex-direction: column;
+      gap: 5%;
+      padding-left: 15%;
+      width: 50px;
+   }
+
+   #navbar{
+      flex-direction: column;
+      /* flex-wrap: wrap;  */
+      padding-left: 10%;
+      gap: 10%;
+   }
+
+   #dresses{
+      flex-direction: column;
+   }
+
+   .mini{
+      flex-direction: column;
+   }
+
+   .shoes{
+      flex-direction: column;
+   }
+
+   .heels{
+      flex-direction: column;
+   }
+
+   .toy1{
+      flex-direction: column;
+   }
+
+   .garlie{
+      flex-direction: column;
+   }
+
+   .romps{
+      flex-direction: column;
+   }
+
+   
+}
+
+@media screen and (min-width:1021px) and (max-width:1300px){
+   .shorts{
+      flex-wrap: wrap;
+      gap: 10%;
+   }
+
+   .mini{
+      flex-direction: column;
+      padding-left: 15%;
+      gap: 15%;
+   }
+
+   #footer{
+      flex-direction: column;
+      gap: 5%;
+      padding-left: 15%;
+      width: 50px;
+   }
+
+   #navbar{
+      flex-direction: column;
+      /* flex-wrap: wrap;  */
+      padding-left: 10%;
+      gap: 10%;
+   }
+
+   #dresses{
+      flex-direction: column;
+   }
+
+   .mini{
+      flex-direction: column;
+   }
+
+   .shoes{
+      flex-direction: column;
+   }
+
+   .heels{
+      flex-direction: column;
+   }
+
+   .toy1{
+      flex-direction: column;
+   }
+
+   .garlie{
+      flex-direction: column;
+   }
+
+   .romps{
+      flex-direction: column;
+   }
+}
+@media screen and (min-width:600px) and (max-width:10240px){
+   
+}
+
+   #navbar{
+      display: flex; 
+      padding-left: 10%;
+      gap: 10%;
+   }
+   .heading{
+      text-align: center;
+      padding-left: 10%;
+      font-size: xx-large;
+      font-style: italic;
+   }
+   #sage{
+      color: cornflowerblue;
+      padding-left: 35%;
+      font-style: italic;
+   }
+   #header{
+      padding-left: 15%;
+      background-color: plum;
+   }
+   #wears{
+      text-align: center;
+   }
+   #Rompers{
+      display: flex;
+   }
+   .clothes{
+      display: flex;
+      gap: 10%;
+   }
+      
+   .shorts{
+   display: flex;
+   padding-left: 15%;
+   gap: 15%;
+   }
+   #dresses{
+      display: flex;
+      padding-left: 15%;
+      gap: 15%;
+   }
+   .shoes{
+      display: flex;
+      padding-left: 15%;
+      gap: 15%;
+   }
+   #title{
+      text-align: center;
+
+   
+}
 
 

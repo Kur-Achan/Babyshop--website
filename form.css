@@ -1,0 +1,14 @@
+#form{
+    border: solid 2px;
+    padding: 5px;
+    width: 50%;
+    margin: 15%;
+}
+
+#button{
+    border: solid 2px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 40%;
+}
