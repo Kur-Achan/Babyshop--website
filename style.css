@@ -24,6 +24,12 @@
 #Rompers{
    display: flex;
 }
+.romps{
+   display: flex;
+   padding-left: 15%;
+   gap: 15%;
+   
+}
 .clothes{
    display: flex;
    gap: 10%;
@@ -71,11 +77,16 @@ gap: 15%;
 #vida{
    align-content: center;
 }
-#footer{
+.footer{
    display: flex;
-   gap: 5%;
+   gap: 10%;
    padding-left: 15%;
-   width: 50px;
+   background-color: blueviolet;  
+}
+#button{
+   border-radius: 10%;
+   padding-left: 15%;
+   
 }
 #heading{
    text-align: center;
@@ -94,6 +105,7 @@ gap: 15%;
 
    #footer{
       flex-direction: column;
+   
       gap: 5%;
       padding-left: 15%;
       width: 50px;
