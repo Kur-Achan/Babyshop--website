@@ -77,11 +77,22 @@ gap: 15%;
 #vida{
    align-content: center;
 }
+.carriers{
+  display: flex;
+  padding-left: 15%;
+  gap: 15%;
+}
 .footer{
    display: flex;
    gap: 10%;
    padding-left: 15%;
    background-color: blueviolet;  
+}
+.info{
+   display: flex;
+   gap: 15%;
+   background-color: black;
+   color: bisque;
 }
 #button{
    border-radius: 10%;
