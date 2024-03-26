@@ -1,7 +1,7 @@
 #navbar{
    display: flex; 
    padding-left: 10%;
-   gap: 5%;
+   gap: 3%;
 }
 .heading{
    text-align: center;
@@ -87,6 +87,7 @@ gap: 15%;
    gap: 10%;
    padding-left: 15%;
    background-color: blueviolet;  
+   width: 85%;
 }
 .info{
    display: flex;
@@ -95,9 +96,16 @@ gap: 15%;
    color: bisque;
 }
 #button{
-   border-radius: 10%;
-   padding-left: 15%;
+   border-radius: 55px;
+   padding-left: 50%;
    
+}
+#signIn{
+   padding-left: 45%;
+   gap: 25%;
+}
+.icons{
+   width: 15%;
 }
 #heading{
    text-align: center;
