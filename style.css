@@ -105,11 +105,20 @@ gap: 15%;
    gap: 25%;
 }
 .icons{
+   display: flex;
    width: 15%;
+   gap: 5%;
+}
+#button{
+   border-radius: 20%;
 }
 #heading{
    text-align: center;
    padding-right: 15%;
+
+
+
+   
 }@media screen and (min-width:375px) and (max-width: 768px) {
    .shorts{
       flex-wrap: wrap;
