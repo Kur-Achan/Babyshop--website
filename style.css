@@ -83,6 +83,7 @@ gap: 15%;
   gap: 15%;
 }
 .footer{
+   background-image: none;
    display: flex;
    gap: 10%;
    padding-left: 15%;
@@ -104,6 +105,9 @@ gap: 15%;
    padding-left: 45%;
    gap: 25%;
 }
+#shopping1{
+   display: flex;
+}
 .icons{
    display: flex;
    width: 15%;
@@ -123,6 +127,12 @@ gap: 15%;
    .shorts{
       flex-wrap: wrap;
       gap: 10%;
+   }
+   #shopping1{
+      flex-direction: column;
+   }
+   .info{
+   flex-direction: column;
    }
 
    .mini{

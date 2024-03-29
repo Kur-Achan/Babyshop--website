@@ -1,6 +1,6 @@
 
 
-                 
+          
 
 let slideIndex = 0;
 showslides();
