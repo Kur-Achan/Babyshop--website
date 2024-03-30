@@ -96,10 +96,13 @@ gap: 15%;
    background-color: black;
    color: bisque;
 }
-#button{
-   border-radius: 55px;
-   padding-left: 50%;
-   
+#web{
+   margin-left: 45%;
+   padding: 10px;
+   background-color: #8A2BE2 ;
+   border-radius: 20px; 
+   margin-bottom: 50px;
+   color: antiquewhite;
 }
 #signIn{
    padding-left: 45%;
@@ -113,8 +116,13 @@ gap: 15%;
    width: 15%;
    gap: 5%;
 }
-#button{
-   border-radius: 20%;
+#shop{
+   margin-left: 75%;
+   padding: 10px 30px 10px 30px;
+   color: white;
+   background-color: blue;
+   border-radius: 15%;
+
 }
 #heading{
    text-align: center;
