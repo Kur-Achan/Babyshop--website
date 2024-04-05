@@ -82,6 +82,9 @@ gap: 15%;
   padding-left: 15%;
   gap: 15%;
 }
+#words{
+   text-align: center;
+}
 .footer{
    background-image: none;
    display: flex;
@@ -124,11 +127,10 @@ gap: 15%;
    border-radius: 15%;
 
 }
-#heading{
-   text-align: center;
-   padding-right: 15%;
-
-
+.confirmation{
+   margin-left: 50%;
+   
+  
 
    
 }@media screen and (min-width:375px) and (max-width: 768px) {

@@ -1,7 +1,7 @@
 var confirm = 
 document.getElementById("myModal");
 
-var btn = 
+var button = 
 document.getElementById("openModalBtn");
 
 var span =
@@ -16,17 +16,17 @@ span.onclick = function(){
 
 
 window.onclick = function(Event){
-    if (Event.target== modal){
+    if (Event.targeted== modal){
     this.ariaModal.style.display ="none";
 }
 }
-document.getElementsByClassName("confirmBtn"
+document.getElementsByIdName("confirmButton"
 ).onclick = function(){
        alert("Confirmed!");
-    modal.style.display ="none";
+    
 }
 
-document.getElementsByClassName("CancelBtn"
+document.getElementsByIdName("CancelButton"
 ).onclick = function(){
        
     modal.style.display ="none";

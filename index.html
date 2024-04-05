@@ -17,15 +17,15 @@
   <body>
     <div>
     <div id="navbar">
-      <li>Home</li>
-      <li>Shop</li>
-      <li>AboutUs</li>
-      <li>Products</li>
-      <li>Gifts</li>
-      <li>Contact</li>
-      <li>Page</li>
-      <li><img src="./images/heart.png" alt=""width="50px"></li>
-      <li><img src="./images/trolley.png" alt=""width="50px"></li>
+      <ul>Home</ul>
+      <ul>Shop</ul>
+      <ul>AboutUs</ul>
+      <ul>Products</ul>
+      <ul>Gifts</ul>
+      <ul>Contact</ul>
+      <ul>Page</ul>
+      <ul><img src="./images/heart.png" alt=""width="50px"></ul>
+      <ul><img src="./images/trolley.png" alt=""width="50px"></ul>
     </div>
     </div>
     <marquee> <h1 style="color: fuchsia;">Welcome to Gracine'S Baby Shop</h1></marquee width="200px"> 
@@ -198,8 +198,10 @@
          <br>
          <div class="carriers">
           <div>
+            <div id="suject">
           <h1>Baby carriers</h1>
           <p> provide a great deal of safety, flexibility, and storage. </p>
+          </div>
           <img src="./images/roller.jpeg" alt="">
           <p>roller</p>
           <del>Ksh5000</del> <ins style="color: cyan;">Ksh4500</ins>
@@ -264,7 +266,7 @@
             <ul><img src="./images/you tube.png" alt="" width="45px"></ul>
              </div>
              <div>
-            <ul><a href="https://www.instagram.com/babyshop/?hl=en"></a><img src="./images/ig.jpeg" alt="" width="45px"></ul></a>
+            <ul><a href="https://www.instagram.com/babyshop/?hl=en"><img src="./images/ig.jpeg" alt="" width="45px"></ul></a>
             </div>
           </div>
         </div>
@@ -278,19 +280,22 @@
          <br>
          <br>
               <div>
-         <button id="web"> <a href="form.html"> Sign in to our website form</a></button>
+         <button id="web"> <a href="form.html"> Sign up to our website</a></button>
                </div>
               
          
-  </body>
+  
   <script src="confirm.js"></script>
   <div id="confirmModal" class="modal">
     <div class="modal-content">
       <span>
-        <p>Are you sure?</p>
-        <button id="confirmBtn">confirm</button>
-        <button id="cancelBtn"> Cancel</button>
-
+        <div class="confirmation">
+        <p>Do you want to continue?</p>
+        <button id="confirmButton"> <a href="form.html">confirm</a></button>
+        <button id="cancelButton"> Cancel</button>
            </div>
            </div>
+           
+          </script>
+          </body>
 </html>
